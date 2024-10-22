@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Plan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+        
+        body {
+            font-family: cursive;
+            line-height: 1.6;
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1500px;
+            background-color: #2b2b2b;
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.5);
+            padding: 20px;
+            margin: 20px;
+        }
+        
+        .header {
+            border: 2px solid #ef68e2;
+            background-color: #333;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            box-shadow: 0 0 20px rgba(255, 100, 255, 0.5);
+        }
+        
+        .header h1 {
+            color: #160b01;
+            text-shadow: 0 0 10px rgb(236, 255, 142), 0 0 20px #00ff00;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        
+        .header h6 {
+            color: #ffe0c4;
+            font-size: 1em;
+            margin-bottom: 30px;
+        }
+        
+        label {
+            color: #ffe0c4;
+            font-size: 2em;
+        }
+        
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid #00ff00;
+            border-radius: 4px;
+            font-size: 1em;
+            background-color: #444;
+            color: #fff;
+            box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+            width: 100%;
+            max-width: 300px;
+        }
+        
+        input[type="text"]:focus {
+            border-color: #00ff00;
+            outline: none;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 1);
+        }
+        
+        .content {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+        
+        .section {
+            border: 2px solid #00ff00;
+            background-color: #3b3b3b;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .section h2 {
+            margin-top: 0;
+            color: #ffe0c4;
+        }
+        
+        hr {
+            width: 100%;
+            margin: 10px 0;
+            border: none;
+            border-top: 1px solid #00ff00;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #ffe0c4;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            border: 2px solid #ef68e2;
+            box-shadow: 0 0 20px rgba(255, 100, 255, 0.5);
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            .header h6 {
+                font-size: 1em;
+            }
+            label {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>LESSON PLAN</h1>
+            <h6>MRS. SMITH LESSON PLAN</h6>
+            <div class="form-container">
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="date">
+                <label for="topic">Topic:</label>
+                <input type="text" id="topic" name="topic">
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="section objectives">
+                <h2>OBJECTIVES:</h2>
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+            </div>
+
+            <div class="section materials">
+                <h2>MATERIALS:</h2>
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+            </div>
+
+            <div class="section assessment">
+                <h2>ASSESSMENT:</h2>
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+            </div>
+
+            <div class="section resources">
+                <h2>RESOURCES:</h2>
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+            </div>
+
+            <div class="section task">
+                <h2>TASK:</h2>
+                <hr>
+                <hr>
+            </div>
+
+            <div class="section other">
+                <h2>OTHER:</h2>
+                <hr>
+                <hr>
+                <hr>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2024 Smith. All rights reserved.
+        </footer>
+    </div>
+</body>
+
+</html>
